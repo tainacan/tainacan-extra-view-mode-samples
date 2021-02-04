@@ -36,7 +36,7 @@ function tainacan_extra_viewmode_component_demo_register_components($helper) {
 		// Registering the view mode
         tainacan_register_view_mode('demo-2', [
             'label' 				=> 'Demo 2',
-			'description' 			=> __('A borindg component demo view mode.', 'tainacan-extra-viewmodes'),
+			'description' 			=> __('A boring component demo view mode.', 'tainacan-extra-viewmode-component-demo'),
 			'icon' 					=> '<span class="icon"><i><svg fill="var(--tainacan-info-color, #555758)" xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M8.492 6.074h7.016v11.852H8.492zM4.943 7.477h2.806v9.046H4.943zM16.251 7.477h2.807v9.046H16.25zM19.8 8.442h1.884v7.116h-1.883zM2.316 8.442h1.883v7.116H2.316z"/></svg></i></span>',
             'type' 					=> 'component',
 			'component' 			=> 'view-mode-demo-2',

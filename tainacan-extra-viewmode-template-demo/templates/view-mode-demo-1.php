@@ -7,7 +7,7 @@
                 <div class="tainacan-demo-1">
                     <a href="<?php the_permalink(); ?>">
                         <?php if ( has_post_thumbnail() ): ?>
-                            <?php the_post_thumbnail('large'); ?> 
+                            <?php the_post_thumbnail('tainacan-medium-full'); ?> 
                         <?php else: ?>
                             <?php echo '<img alt="Thumbnail placeholder" src="' . plugins_url('', __FILE__ ) . '/thumbnail_placeholder.png">'?>
                         <?php endif; ?>  

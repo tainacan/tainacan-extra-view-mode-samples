@@ -68,9 +68,7 @@ export default {
     data() {
         return {
             thumbPlaceholderPath: tainacan_plugin.base_url + '/assets/images/placeholder_square.png',
-            isSlideshowViewModeEnabled: false,
-            showMetadataPanel: false,
-            masonryCols: { default: 7, 1600: 6, 1400: 5, 1200: 4, 960: 3, 560: 2, 344: 1 }
+            isSlideshowViewModeEnabled: false
         }
     },
     props: {
