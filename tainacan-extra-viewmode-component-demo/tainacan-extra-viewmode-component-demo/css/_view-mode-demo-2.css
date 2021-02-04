@@ -1,0 +1,100 @@
+/* General style */
+.demo-2-view-mode.grid-demo-2 {
+	width: 100%;
+	min-width: 100%;
+}
+
+.demo-2-view-mode.grid-demo-2 ul {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.demo-2-view-mode.grid-demo-2 figure {
+	margin: 0;
+}
+
+.demo-2-view-mode.grid-demo-2 figure img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.demo-2-view-mode.grid-demo-2 figcaption {
+	margin: 0;
+	text-align: left;
+	font-size: 1em;
+}
+
+.demo-2-view-mode.grid-demo-2 figcaption h3 {
+	font-size: 0.9375em;
+	margin: 0;
+	padding: 0 0 0.5em;
+	color: var(--tainacan-heading-color, #000000);
+}
+
+.demo-2-view-mode.grid-demo-2 figcaption p {
+	font-size: 0.8125em;
+	margin: 0;
+	color: var(--tainacan-info-color, #555758);
+}
+
+/* Grid style */
+.demo-2-view-mode .grid {
+	margin: 0 auto;
+}
+
+.demo-2-view-mode .grid li {
+	width: 14.28%;
+}
+
+.demo-2-view-mode .grid li .slideshow-icon {
+	opacity: 0;
+	display: none;
+}
+
+.demo-2-view-mode .grid li:hover .slideshow-icon {
+	opacity: 1;
+	display: block;
+}
+
+/* Skeleton only */
+.demo-2-view-mode .tainacan-masonry-container {
+	margin: 12px auto;
+	padding: 0 1em 1.875em;
+}
+.demo-2-view-mode .skeleton {
+	margin-bottom: 20px;
+}
+
+.demo-2-view-mode .grid figure {
+	padding: 12px;
+	-webkit-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+}
+
+.demo-2-view-mode .grid li:hover figure {
+	opacity: 0.9;
+}
+
+.demo-2-view-mode .grid figcaption {
+	background: var(--tainacan-item-background-color, #ffffff);
+	padding: 8px 0.5em;
+	transition: background 0.2s ease;
+}
+
+.demo-2-view-mode .grid li:hover figcaption {
+	background: var(--tainacan-item-hover-background-color, #f2f2f2);
+}
+
+@media screen and (max-width: 35em) {
+	.demo-2-view-mode .grid li {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 23em) {
+	.demo-2-view-mode .grid li {
+		width: 100%;
+	}
+}
